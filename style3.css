@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+width: 100%;
+height: 100%;
+background-image: url(assets/logo.png);
+background-position: left;
+background-repeat: no-repeat;
+}
+header{
+  background-position: center;
+  text-align: center;
+  color:  #c80c77;
+}
+.main{
+  background-position: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: inherit;
+  text-align: center;
+}
+button{
+  float: right;
+  color: #c80c77;
+  
+}

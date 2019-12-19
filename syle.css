@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+width: 100%;
+height: 100%;
+}
+.menubar{
+  background-color: #ffff;
+  text-align: center;
+  justify-content: space-evenly;
+
+  z-index: 999;
+}
+.menubar ul{
+  display: inline-flex;
+  list-style: none;
+  color: #b313f4;
+}
+.menubar ul li{
+  width: 50%;
+  font-size: 120%;
+  margin: 5px;
+  padding:10px;
+}
+.menubar ul li a{
+  text-decoration: none;
+  color: #c212df;
+}
+.menubar ul li:hover{
+  background: #c8a4de ;
+}
+button{
+color:#c212df;
+width: 40%;
+}
+.box1{
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+  height: 30vh;
+  margin: auto;
+}
+.box1-content{
+
+  float: left;
+  color:#b80ed4;
+  top:10%;
+  margin-left: 4%;
+}
+.box1pic{
+  float: right;
+  padding: 5px;
+
+}
+.box2{
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+  height: 30vh;
+
+}
+.box2-content{
+  position: relative;
+  top:5%;
+  color:#b80ed4;
+  float: right;
+  margin-right: 20px;
+
+}
+.box2pic{
+  position: relative;
+  float: left;
+  padding: 15px;
+  margin-left: 20px;
+}
+.side1{
+  float: left;
+  color: #ffffff;
+  height: 40vh;
+  text-align: center;
+  width: 50%;
+  background-color: #000000;
+}
+.side2{
+  float: right;
+  color: #ffffff;
+  height: 40vh;
+  text-align: center;
+  width: 50% ;
+  background-color: black;
+}
